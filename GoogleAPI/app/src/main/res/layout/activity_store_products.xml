@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_friends"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.pierre.googleapi.StoreProductsActivity"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <include
+        android:id="@+id/above"
+        layout="@layout/header" />
+
+    <TextView
+        android:layout_below="@+id/above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"/>
+
+    <ListView
+        android:id="@+id/listProducts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>
